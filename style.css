@@ -1,0 +1,78 @@
+.navbar {
+    opacity: 0.99;
+}
+.fontlobster {
+    font-family: "Lobster", Sans-serif;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*new theme css*/
+*,
+*:before,
+*:after {
+    box-sizing: border-box !important;
+}
+
+.rowone {
+    -moz-column-width: 18em;
+    -webkit-column-width: 18em;
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
+}
+
+.item {
+    display: inline-block;
+    padding: .25rem;
+    width: 100%;
+}
+
+.well {
+    position: relative;
+    display: inline;
+}
+
+.testimonal-card {
+    margin: 0.2rem;
+    padding: 0.4rem;
+}
+
+.card-sm {
+    width: 180px;
+}
+
+.whiteband, .greyband {
+    margin: 0;
+    padding: 0;
+}
+.whiteband { 
+    height: 2.4rem; 
+    background-color: transparent;
+    /*  a href ile linke gidilmesi durumunda yukarıdan offset verilmesi içindir. Yüksekliği navbar kadar olmalıdır. */
+}
+
+.greyband {
+    height: 1.4rem;
+    background-color: #343A40; // original-bgcolor: #343A40
+}
+
+.tourimg {
+    height: auto;
+    width: 15rem;
+}
+
+img {
+    border-radius: 5%;
+}
+.mainband{
+    font-family: "Allerta Stencil", Sans-serif;
+    text-align: center;
+    background-color: #343A40;
+    margin-top: 0; margin-bottom: 0;
+    font-size: 2.5rem;
+    color: white;
+    /*fontallerta text-center text-light bg-dark my-0 display-5
+    */
+}
